@@ -53,7 +53,7 @@ export default async function makeAreaScreenshot(browser, startX, startY, endX, 
       log('scroll to coordinates x: %s, y: %s for index x: %s, y: %s', x, y, indexX, indexY);
 
       await browser.execute(virtualScroll, x, y, false);
-      await browser.pause(100);
+      await browser.pause(500);
 
       log('take screenshot');
       const base64Screenshot = (await browser.screenshot()).value;
