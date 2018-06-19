@@ -1,5 +1,5 @@
 {
-  "name": "wdio-screenshot",
+  "name": "@affinio/wdio-screenshot",
   "version": "0.6.0",
   "description": "Screenshot commands for WebdriverIO",
   "main": "lib/index.js",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zinserjan/wdio-screenshot"
+    "url": "https://github.com/affinio/wdio-screenshot"
   },
   "bugs": {
-    "url": "https://github.com/zinserjan/wdio-screenshot/issues"
+    "url": "https://github.com/affinio/wdio-screenshot/issues"
   },
   "author": "Jan-André Zinser",
   "license": "MIT",
