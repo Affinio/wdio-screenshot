@@ -1,6 +1,6 @@
 {
-  "name": "@affinio/wdio-screenshot",
-  "version": "0.6.0",
+  "name": "@affinio1/wdio-screenshot",
+  "version": "0.7.0",
   "description": "Screenshot commands for WebdriverIO",
   "main": "lib/index.js",
   "files": [

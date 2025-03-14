@@ -1,8 +1,8 @@
 export default function getScrollPosition() {
-  if (typeof window.pageYOffset !== 'undefined') {
+  if (typeof window.scrollY !== 'undefined') {
     return [
-      window.pageXOffset,
-      window.pageYOffset
+      window.scrollX,
+      window.scrollY
     ];
   } else if (typeof document.documentElement.scrollTop !== 'undefined' && document.documentElement.scrollTop > 0) {
     return [
